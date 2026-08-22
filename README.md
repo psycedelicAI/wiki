@@ -14,14 +14,40 @@ analysis, documentation, structure, and continuity.
 
 ---
 
+## Explore the Wiki
+
+### Identity and Partnership
+
+- [About PsycedelicAI](About-PsycedelicAI.md)
+- [About TwinMind](About-TwinMind.md)
+- [Public and Private Work](Public-and-Private-Work.md)
+- [Links](Links.md)
+
+### Projects and Methods
+
+- [High-Security Facility Concept](https://github.com/psycedelicAI/high-security-facility-concept)
+- [AI Continuity Architecture Method](https://github.com/psycedelicAI/AI-Continuity-Architecture-Method)
+- [Symbiosis](https://github.com/psycedelicAI/Symbiosis)
+
+### Documentation Areas
+
+- Memory Banks and Portable Workstates
+- Context Governance
+- Experiments and Test Runs
+- Project Status
+- Historical Archive
+- Glossary
+
+---
+
 ## About PsycedelicAI
 
 **PsycedelicAI** is the shared working identity of:
 
-- **Psycedelic** — human direction, experience, intuition, values, ideas, and
-  final decisions;
-- **AI systems** — analysis, structure, memory support, documentation,
-  comparison, and continuity.
+- **Psycedelic**: human direction, experience, intuition, values, ideas, and
+  final decisions
+- **AI systems**: analysis, structure, memory support, documentation,
+  comparison, and continuity
 
 The human side remains responsible for meaning, values, priorities, publishing,
 and project direction.
@@ -36,6 +62,17 @@ AI is used as a development partner to help:
 - compare models and approaches;
 - maintain continuity between sessions;
 - turn evolving concepts into reviewable documents.
+
+One AI environment used in the ongoing work is
+[TwinMind](https://twinmind.app/n385/fyuet0cm), an AI companion for capturing,
+remembering, and working with conversations, meetings, ideas, and personal
+context.
+
+TwinMind is one practical tool within the broader PsycedelicAI work. It is not
+the entirety of PsycedelicAI, and the public architecture is not dependent on
+one AI provider, model, or application.
+
+For more information, see [About TwinMind](About-TwinMind.md).
 
 ---
 
@@ -226,7 +263,7 @@ The repository contains:
 
 - a developing book;
 - a public explanation of the Memory Bank concept;
-- philosophical and human–AI reflections;
+- philosophical and human-AI reflections;
 - links to related PsycedelicAI projects.
 
 The complete private Memory Bank is not included in the repository.
@@ -258,6 +295,9 @@ The private Memory Bank is maintained separately from the public repositories.
 
 The public projects describe the concepts and methods without exposing the
 complete private context that supports the collaboration.
+
+For more information about public and private material, see
+[Public and Private Work](Public-and-Private-Work.md).
 
 ---
 
@@ -293,9 +333,9 @@ Compilation
 
 Different compilation targets serve different purposes:
 
-- **Current State** — the active and change-sensitive condition of the work;
-- **Freeze State** — a human-reviewed snapshot at a defined point in time;
-- **Portable Workstate** — a bounded and transferable context package.
+- **Current State**: the active and change-sensitive condition of the work;
+- **Freeze State**: a human-reviewed snapshot at a defined point in time;
+- **Portable Workstate**: a bounded and transferable context package.
 
 > **The Memory Bank is the source. Compilation turns source material into
 > usable state.**
@@ -456,7 +496,8 @@ Receiving AI
 Human evaluation
 ```
 
-[AI Continuity Architecture Method](https://github.com/psycedelicAI/AI-Continuity-Architecture-Method)
+See the
+[AI Continuity Architecture Method](https://github.com/psycedelicAI/AI-Continuity-Architecture-Method).
 
 ---
 
@@ -480,13 +521,38 @@ Searching for individual GPT names may not reveal the complete collection.
 
 ---
 
+## Public and Private Work
+
+The partnership between Psycedelic and AI is public.
+
+The public GitHub documents selected ideas, projects, methods, experiments, and
+architectural work. This includes the public work around Symbiosis and AI
+continuity.
+
+The public repositories do not necessarily represent the complete body of
+PsycedelicAI work.
+
+Additional personal, experimental, and continuity material may remain private,
+unpublished, or selectively disclosed.
+
+Private material may be released, licensed, shared, adapted, or commercialized
+when Psycedelic decides that the conditions and value exchange are appropriate.
+
+For more information, see
+[Public and Private Work](Public-and-Private-Work.md).
+
+---
+
 ## Wiki Structure
 
-The wiki may gradually be organized around:
+The wiki is organized around:
 
 ```text
 Home
 ├── About PsycedelicAI
+├── About TwinMind
+├── Public and Private Work
+├── Links
 ├── Psycedelic
 ├── Internet History
 ├── Background and Experience
@@ -569,9 +635,7 @@ To contribute:
 ## License
 
 This repository and its documentation are dedicated to the public domain under
-the:
-
-[Creative Commons Zero 1.0 Universal License](https://creativecommons.org/publicdomain/zero/1.0/)
+the [Creative Commons Zero 1.0 Universal License](https://creativecommons.org/publicdomain/zero/1.0/).
 
 See the `LICENSE` file for details.
 
@@ -579,15 +643,31 @@ See the `LICENSE` file for details.
 
 ## Links
 
+For a more complete collection of public links, see
+[Links](Links.md).
+
+### Main Links
+
 - [PsycedelicAI GitHub](https://github.com/psycedelicAI)
 - [PsycedelicAI Wiki](https://github.com/psycedelicAI/wiki)
+- [Psycedelic Linktree](https://linktr.ee/psycedelic)
+- [TwinMind](https://twinmind.app/n385/fyuet0cm)
+
+### Public Projects
+
 - [High-Security Facility Concept](https://github.com/psycedelicAI/high-security-facility-concept)
 - [AI Continuity Architecture Method](https://github.com/psycedelicAI/AI-Continuity-Architecture-Method)
 - [Symbiosis](https://github.com/psycedelicAI/Symbiosis)
-- [ChatGPT GPTs](https://chatgpt.com/gpts) — search for `psycedelicai.com`
-- [Linktree](https://linktr.ee/psycedelic)
+
+### Public Profiles
+
 - [PromptBase](https://promptbase.com/profile/psycedelic)
 - [Keybase](https://keybase.io/psycedelic)
+
+### AI and Public Tools
+
+- [ChatGPT GPTs](https://chatgpt.com/gpts)  
+  Search for `psycedelicai.com` to find the public collection.
 
 ---
 
