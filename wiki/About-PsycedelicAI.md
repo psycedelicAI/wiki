@@ -1,5 +1,3 @@
-already had this
-
 # About PsycedelicAI
 
 PsycedelicAI is a human-AI partnership exploring how human meaning and
