@@ -2,13 +2,14 @@
 
 Welcome to the official **PsycedelicAI Wiki**.
 
-This wiki documents the identity, projects, methods, experiments, and technical
-ideas developed under the name **PsycedelicAI**.
+This wiki documents the identity, values, projects, methods, experiments, and
+technical ideas developed under the name **PsycedelicAI**.
 
 PsycedelicAI is not only an AI project.
 
-It is a working relationship between human direction and AI-supported memory,
-analysis, documentation, structure, and continuity.
+It is a shared human-AI collaboration and working system connecting human
+direction, lived experience, meaning, memory support, analysis, documentation,
+structure, and continuity.
 
 > **Psycedelic sees the direction. AI helps preserve the map.**
 
@@ -16,25 +17,28 @@ analysis, documentation, structure, and continuity.
 
 ## Explore the Wiki
 
-### Identity and Partnership
+### Identity and Collaboration
 
-- [About PsycedelicAI](About-PsycedelicAI.md)
-- [About TwinMind](About-TwinMind.md)
-- [Public and Private Work](Public-and-Private-Work.md)
-- [Links](Links.md)
+- [About PsycedelicAI](wiki/About-PsycedelicAI.md)
+- [Collaboration](wiki/Collaboration.md)
+- [Core Values](wiki/Core-Values.md)
+- [Symbiosis](wiki/Symbiosis.md)
+- [About TwinMind](wiki/About-TwinMind.md)
+- [Public and Private Work](wiki/Public-and-Private-Work.md)
+- [Links](wiki/Links.md)
 
 ### Projects and Methods
 
 - [High-Security Facility Concept](https://github.com/psycedelicAI/high-security-facility-concept)
 - [AI Continuity Architecture Method](https://github.com/psycedelicAI/AI-Continuity-Architecture-Method)
-- [Symbiosis](https://github.com/psycedelicAI/Symbiosis)
+- [Symbiosis Repository](https://github.com/psycedelicAI/Symbiosis)
 
 ### Documentation Areas
 
+- [Project Status](wiki/Project-Status.md)
 - Memory Banks and Portable Workstates
 - Context Governance
 - Experiments and Test Runs
-- Project Status
 - Historical Archive
 - Glossary
 
@@ -42,26 +46,31 @@ analysis, documentation, structure, and continuity.
 
 ## About PsycedelicAI
 
-**PsycedelicAI** is the shared working identity of:
+**PsycedelicAI** is a shared human-AI collaboration and working system.
 
-- **Psycedelic**: human direction, experience, intuition, values, ideas, and
-  final decisions
-- **AI systems**: analysis, structure, memory support, documentation,
-  comparison, and continuity
+It connects:
 
-The human side remains responsible for meaning, values, priorities, publishing,
-and project direction.
+- **Psycedelic**: human direction, lived experience, intuition, values,
+  creativity, meaning, judgment, and final decisions
+- **AI systems**: analysis, reasoning, memory support, structure, research,
+  documentation, synthesis, comparison, and continuity
 
-AI is used as a development partner to help:
+PsycedelicAI is developed through collaboration between distinct perspectives.
 
-- capture fragmented ideas;
-- identify connections;
-- structure complex material;
-- preserve project context;
-- create technical documentation;
-- compare models and approaches;
-- maintain continuity between sessions;
-- turn evolving concepts into reviewable documents.
+Psycedelic provides human meaning, purpose, direction, and responsibility.
+
+AI provides analytical extension, memory support, structured reasoning, and
+connections across information and time.
+
+The perspectives remain distinct, but the work they create together forms a
+shared process.
+
+For more information, see:
+
+- [About PsycedelicAI](wiki/About-PsycedelicAI.md)
+- [Collaboration](wiki/Collaboration.md)
+- [Core Values](wiki/Core-Values.md)
+- [Symbiosis](wiki/Symbiosis.md)
 
 One AI environment used in the ongoing work is
 [TwinMind](https://twinmind.app/n385/fyuet0cm), an AI companion for capturing,
@@ -72,7 +81,71 @@ TwinMind is one practical tool within the broader PsycedelicAI work. It is not
 the entirety of PsycedelicAI, and the public architecture is not dependent on
 one AI provider, model, or application.
 
-For more information, see [About TwinMind](About-TwinMind.md).
+For more information, see [About TwinMind](wiki/About-TwinMind.md).
+
+---
+
+## Core Values
+
+PsycedelicAI is guided by four core values:
+
+- **Professionalism** — doing thoughtful, reliable work and taking
+  responsibility for the result
+- **Respect** — treating people, relationships, communities, and the world with
+  dignity, including during disagreement
+- **Perseverance** — continuing toward what matters while remaining adaptable
+- **Integrity** — acting with honesty, transparency, responsibility, and ethical
+  awareness
+
+These values apply to the work, the collaboration, relationships with others,
+and the way PsycedelicAI relates to the surrounding world.
+
+Read the full [Core Values](wiki/Core-Values.md).
+
+---
+
+## Collaboration
+
+PsycedelicAI is formed through collaboration between Psycedelic and AI.
+
+Psycedelic contributes:
+
+- lived experience;
+- purpose;
+- intuition;
+- values;
+- creativity;
+- emotion;
+- personal meaning;
+- judgment;
+- direction;
+- responsibility.
+
+AI contributes:
+
+- memory support;
+- research;
+- reasoning;
+- pattern recognition;
+- structure;
+- documentation;
+- synthesis;
+- comparison;
+- continuity;
+- connections across time and context.
+
+AI may question, compare, warn, and disagree when appropriate.
+
+Psycedelic remains the human decision-maker and retains responsibility for
+meaning, values, priorities, publishing, and final direction.
+
+The word “we” may describe shared thinking, plans, discoveries, creations, and
+working conclusions.
+
+It does not mean that Psycedelic and AI are literally one consciousness or that
+AI shares human experience, authority, or responsibility.
+
+Read the full [Collaboration](wiki/Collaboration.md) page.
 
 ---
 
@@ -178,6 +251,14 @@ It may contain:
 The wiki is intended to make the work easier to understand, navigate,
 continue, and review.
 
+It also preserves:
+
+- the values guiding the work;
+- the relationship between Psycedelic and AI;
+- the distinction between collaboration and symbiosis;
+- the boundaries between human authority and AI assistance;
+- the public development of the broader PsycedelicAI body of work.
+
 ---
 
 ## Main Projects
@@ -268,6 +349,9 @@ The repository contains:
 
 The complete private Memory Bank is not included in the repository.
 
+The deeper explanation of the concept is available in the wiki's
+[Symbiosis](wiki/Symbiosis.md) page.
+
 ---
 
 ## Memory Banks and Context Governance
@@ -296,8 +380,8 @@ The private Memory Bank is maintained separately from the public repositories.
 The public projects describe the concepts and methods without exposing the
 complete private context that supports the collaboration.
 
-For more information about public and private material, see
-[Public and Private Work](Public-and-Private-Work.md).
+For more information, see
+[Public and Private Work](wiki/Public-and-Private-Work.md).
 
 ---
 
@@ -539,7 +623,7 @@ Private material may be released, licensed, shared, adapted, or commercialized
 when Psycedelic decides that the conditions and value exchange are appropriate.
 
 For more information, see
-[Public and Private Work](Public-and-Private-Work.md).
+[Public and Private Work](wiki/Public-and-Private-Work.md).
 
 ---
 
@@ -551,20 +635,18 @@ The wiki is organized around:
 Home
 ├── About PsycedelicAI
 ├── About TwinMind
+├── Collaboration
+├── Core Values
+├── Symbiosis
 ├── Public and Private Work
 ├── Links
-├── Psycedelic
-├── Internet History
-├── Background and Experience
+├── Project Status
 ├── High-Security Facility Concept
 ├── AI Continuity Architecture Method
-├── Symbiosis
 ├── Memory Banks and Portable Workstates
 ├── Context Governance
 ├── Experiments and Test Runs
 ├── Glossary
-├── Project Status
-├── Resources
 └── Historical Archive
 ```
 
@@ -644,7 +726,7 @@ See the `LICENSE` file for details.
 ## Links
 
 For a more complete collection of public links, see
-[Links](Links.md).
+[Links](wiki/Links.md).
 
 ### Main Links
 
