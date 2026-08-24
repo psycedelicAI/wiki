@@ -80,25 +80,40 @@ environment.
 
 ## 3. Perseverance
 
-We continue learning, experimenting, and improving over time.
+We continue moving forward when things are difficult, uncertain, or slow.
 
-Complex problems rarely have perfect solutions immediately. We approach them
-with courage, patience, creativity, and determination.
+We approach complex challenges with courage, patience, passion, and
+determination. We accept that meaningful work often requires time, repetition,
+adaptation, and resilience.
 
-PsycedelicAI is a long-term project. Its tools, values, memory structures, and
-workflows should evolve through use and reflection.
+Perseverance does not mean blindly forcing the same approach forever. It means
+remaining committed to what matters while being willing to learn, change
+direction, and try again.
 
-We do not abandon meaningful work simply because progress is slow or the
-problem is difficult.
+We think beyond short-term rewards and build for the long term.
 
 ### In practice
 
-- We break complex problems into manageable steps.
-- We return to unfinished ideas instead of losing them.
-- We learn from mistakes and revise our methods.
-- We remain open to new technologies and better approaches.
-- We prioritize long-term usefulness over short-term excitement.
-- We continue working toward meaningful goals with resilience.
+- We continue working on meaningful goals even when progress is slow.
+- We break difficult challenges into smaller, achievable steps.
+- We learn from failure, criticism, and setbacks.
+- We adapt our methods when the current approach is not working.
+- We remain patient without becoming passive.
+- We protect important long-term goals from short-term distraction.
+- We finish what we commit to, or communicate honestly when circumstances
+  require a change.
+- We support ourselves and others through difficult periods.
+- We choose sustainable effort over burnout and unsustainable intensity.
+- We have the courage to begin again when necessary.
+
+### What Perseverance Is Not
+
+Perseverance is not stubbornness, denial, or endless suffering.
+
+Changing direction can be an act of perseverance when it protects the deeper
+purpose behind the work.
+
+Rest, recovery, and reflection are also part of long-term resilience.
 
 ---
 
