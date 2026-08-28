@@ -378,33 +378,6 @@ It records how prompts became tools, how tools became systems and how separate e
 > **The Wiki is the map.  
 > The repositories are the terrain.  
 > The collaboration is the journey.**
-```
-
-## Den viktiga skillnaden mot `Random-Stuffs`
-
-Jag skulle hålla den här README:n mer **konceptuell och dokumenterande**.
-
-`Random-Stuffs` kan säga:
-
-> Här finns mina experiment, gamla filer och saker som inte passar någon annanstans.
-
-Wiki-repositoriet bör säga:
-
-> Här förklaras hur idéerna hänger ihop och vad de betyder.
-
-Det gör att du får en tydlig struktur:
-
-```text
-Random-Stuffs
-= arkivet
-
-Custom GPTs
-= prompt- och chatbotmaterialet
-
-PsycedelicAI Wiki
-= kartan, terminologin och dokumentationen
-
-AI Continuity Architecture Method
 = den mer formella metoden
 
 High-Security Facility Concept
