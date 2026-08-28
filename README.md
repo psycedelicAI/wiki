@@ -409,10 +409,3 @@ AI Continuity Architecture Method
 
 High-Security Facility Concept
 = ett större tillämpat systemkoncept
-```
-
-Jag tycker särskilt att Wiki-README:n bör behålla formuleringen:
-
-> **The Wiki is the map.  
-> The repositories are the terrain.  
-> The collaboration is the journey.**
