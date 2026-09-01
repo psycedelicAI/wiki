@@ -2,7 +2,7 @@
 
 ## Kalle Pettersson
 
-**IT Technician · System Administrator · IT Infrastructure · Systems Thinker**
+**IT Technician · System Administrator · IT Infrastructure · Systems Thinker · Concept Designer**
 
 This is a public professional presentation of my background, technical
 experience and ongoing development.
