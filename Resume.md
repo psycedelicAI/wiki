@@ -10,7 +10,7 @@ experience and ongoing development.
 For the complete original CV, including the full employment history,
 responsibilities and technical experience, see:
 
-**[View my original CV](https://drive.proton.me/urls/ZD2H74F9Y8#iuXXeE480r4f)**
+**[View my original CV](https://drive.proton.me/urls/W5WCM9F328#lzqQKQsjJMR2)**
 
 Private contact information and sensitive customer details have been excluded
 from this public presentation.
@@ -1079,7 +1079,7 @@ evolving body of work rather than one finished product.
 
 # Related links
 
-- [Original CV](https://drive.proton.me/urls/EN6697NDGC#kxAf9qV6nmAj)
+- [Original CV](https://drive.proton.me/urls/W5WCM9F328#lzqQKQsjJMR2)
 - [PsycedelicAI GitHub organisation](https://github.com/psycedelicAI)
 - [PsycedelicAI organisation repository](https://github.com/psycedelicAI/psycedelicAI)
 - [PsycedelicAI Wiki](https://github.com/psycedelicAI/wiki)
