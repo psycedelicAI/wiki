@@ -634,7 +634,7 @@ main office environment.
 - Cloud-based cameras
 - RealVNC
 - Leica Disto D2
-- WiFiMan
+- WiFiman
 - SiteChecklist
 - TPM 2.0
 - BitLocker
@@ -791,7 +791,7 @@ EriColl
 iTracs DCIM
 Microsoft Excel
 Cisco IP telephony
-WiFiMan
+WiFiman
 SiteChecklist
 Network infrastructure
 Wireless access points
