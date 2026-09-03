@@ -10,7 +10,7 @@ experience and ongoing development.
 For the complete original CV, including the full employment history,
 responsibilities and technical experience, see:
 
-**[View my original CV](https://drive.proton.me/urls/EN6697NDGC#kxAf9qV6nmAj)**
+**[View my original CV](https://drive.proton.me/urls/ZD2H74F9Y8#iuXXeE480r4f)**
 
 Private contact information and sensitive customer details have been excluded
 from this public presentation.
