@@ -23,10 +23,11 @@ IT specialist and system administrator with more than **10 years of IT
 experience** across IT support, infrastructure, system administration and
 business-focused IT delivery.
 
-I have more than six years of practical experience in first- and second-line
-support, on-site support and larger business environments. My experience
-includes Microsoft 365, Microsoft Entra ID / Azure AD, Active Directory,
-Microsoft Intune, SCCM, ServiceNow, Easit, Citrix and Windows environments.
+I have more than **six years of practical first- and second-line support
+experience**, including on-site support and work in larger business
+environments. My experience includes Microsoft 365, Microsoft Entra ID /
+Azure AD, Active Directory, Microsoft Intune, SCCM, ServiceNow, Easit, Citrix
+and Windows environments.
 
 My work has included technical support, system administration, endpoint
 management, incident handling, user and access management, migrations,
@@ -47,6 +48,14 @@ mechanic**, together with workshop experience in welding and metalwork. This
 has shaped a practical, systems-oriented approach to troubleshooting,
 maintenance, risk and recovery.
 
+Since April 2026, I have also worked independently through **PsycedelicAI**,
+developing public frameworks and research covering AI continuity, trust
+architecture, technical documentation, knowledge architecture and human-AI
+collaboration.
+
+The current public PsycedelicAI development phase began with the first recorded
+GitHub commit on **21 April 2026**.
+
 ---
 
 ## Core competencies
@@ -54,22 +63,20 @@ maintenance, risk and recovery.
 - First- and second-line IT support
 - On-site and remote technical support
 - System administration
-- Incident and case management
-- Microsoft 365 support and administration
+- Microsoft 365 administration
 - Microsoft Entra ID / Azure AD
 - Active Directory
 - Microsoft Intune
 - SCCM
 - Windows 10 and Windows 11
-- Endpoint management and device deployment
+- Endpoint management and deployment
 - ServiceNow and Easit
 - Citrix environments
 - PowerShell and basic automation
-- Identity and access-related troubleshooting
+- Identity and access management
 - MFA and account recovery
 - Lost or compromised device response
-- IT security awareness and phishing prevention
-- Hardware and infrastructure troubleshooting
+- IT security awareness
 - Technical documentation
 - Supplier and stakeholder communication
 - Business-oriented prioritisation
@@ -77,10 +84,163 @@ maintenance, risk and recovery.
 - Backup and recovery
 - Operational continuity
 - Network and data-centre infrastructure
+- Trust and security architecture
+- AI systems and prompt engineering
+- Independent research and methodology development
+- Knowledge architecture
+- Concept generation and conceptual design
 
 ---
 
 # Employment history
+
+## Self-Employed · Independent IT and AI Systems Developer
+
+**Organisation:** PsycedelicAI  
+**Period:** April 2026 – Present  
+**Public development phase initiated:** 21 April 2026
+
+Since April 2026, I have worked independently through PsycedelicAI, developing
+public technical concepts, AI continuity methods, trust architecture,
+documentation systems and human-AI collaboration workflows.
+
+The work combines practical IT experience with independent research,
+conceptual design, prompt engineering, technical documentation, structured
+testing and methodology development.
+
+### High-Security Facility Concept
+
+Developed a trust architecture framework for high-security environments.
+
+The framework presents a unified model covering:
+
+- Identity and trust.
+- Security zones.
+- Credentials and access.
+- Surveillance and observation.
+- Recovery and resilience.
+- Governance.
+- Operational coordination.
+- Spatial coordination.
+- Movement and maneuver control.
+
+The work focuses on the relationship between security controls instead of
+treating cameras, credentials, zones, procedures and recovery as isolated
+components.
+
+The project includes:
+
+- A published whitepaper.
+- Eleven architecture documents.
+- Nine operations documents.
+- Five AI evaluation documents.
+- Commercial documentation, including an MSA and pricing material.
+- Iterative public releases from version 0.1.0 through version 0.2.7.
+- Master Watcher operations.
+- Maneuver control.
+- Spatial coordination.
+- Community contribution standards.
+
+The project is published under the MIT License.
+
+### AI Continuity Architecture Method
+
+Developed an original methodology for preserving context, identity, intent and
+working state across AI sessions, platforms and models.
+
+The methodology introduces concepts including:
+
+- Portable Workstate.
+- Memory Bank.
+- Context preservation.
+- Continuity testing.
+- Model-to-model transfer.
+- Human authority.
+- Decision boundaries.
+- Provenance and uncertainty.
+
+The repository contains:
+
+- Methodology documentation.
+- Core principles.
+- Reusable templates.
+- A proof of concept.
+- Case studies.
+- Documented continuity test runs across multiple AI models.
+
+### TwinMind-Bank · Private Development Laboratory
+
+Maintained a private research repository for active development and testing.
+
+The laboratory contains:
+
+- Freeze States.
+- Prompts.
+- Test protocols.
+- Experiment analyses.
+- Comparative AI model evaluations.
+- Context-retention test runs.
+- Development notes and working material.
+
+The work maintains a clear separation between public methodology and private
+raw data, supporting responsible documentation and controlled experimentation.
+
+### Public GitHub and AI-related work
+
+Developed and maintained the public PsycedelicAI GitHub organisation:
+
+https://github.com/psycedelicAI
+
+The public work includes research and development related to:
+
+- AI systems.
+- Prompt engineering.
+- AI continuity.
+- Trust and security architecture.
+- Technical documentation.
+- Knowledge architecture.
+- Human-AI collaboration.
+- Conceptual system design.
+- Operational resilience.
+- Reproducible working methods.
+- Public research and reviewable system design.
+
+The wider professional direction also includes exploring AI consulting,
+custom AI chatbots and practical AI-assisted workflows for areas such as
+customer support and healthcare.
+
+### Core competencies developed through PsycedelicAI
+
+- Trust and security architecture design.
+- AI systems and prompt engineering.
+- AI continuity and context architecture.
+- Technical documentation.
+- Knowledge architecture.
+- Independent research.
+- Methodology development.
+- Concept generation.
+- Conceptual design.
+- Systems thinking.
+- Human-AI collaboration.
+- Structured evaluation and testing.
+- Public technical communication.
+- Versioned and reviewable development.
+
+### Related professional background
+
+The PsycedelicAI work builds on previous experience in:
+
+- IT infrastructure.
+- Networking.
+- Enterprise endpoint migration.
+- System administration.
+- Technical support.
+- Mechanical troubleshooting.
+- Welding and metalwork.
+- Hot-work safety.
+- Practical maintenance and recovery.
+
+---
 
 ## IT Consultant · Presto
 
@@ -157,7 +317,7 @@ maintenance, risk and recovery.
 - Contributed to stable operations, continuity and knowledge transfer during
   supplier transitions.
 - Supported standardisation of workflows.
-- Contributed to improved technical documentation.
+- Improved technical documentation.
 - Secured backup of user data.
 - Supported effective account restoration and recovery.
 - Communicated with users, management, suppliers and technical teams.
@@ -165,8 +325,8 @@ maintenance, risk and recovery.
 
 ### Large-scale client migration
 
-Participated in a large-scale client migration and deployment process
-involving approximately **2,200 devices**.
+Participated in a large-scale client migration and deployment process involving
+approximately **2,200 devices**.
 
 Activities included:
 
@@ -178,40 +338,34 @@ Activities included:
 - Configuration of language, VPN and security-related settings.
 - Troubleshooting deployment and endpoint-related issues.
 - Supporting users during the transition.
-- Contributing to quality assurance before wider deployment.
+- Contributing to quality assurance before wider rollout.
 
 The work demonstrated the importance of controlled testing, pilot groups, clear
 communication and gradual deployment before a broad rollout.
 
 ### Identity, access and security-related support
 
-A central part of the work involved structured troubleshooting in Microsoft 365
-and Microsoft Entra ID.
+- Validated user identity before changing account settings.
+- Investigated MFA and sign-in problems.
+- Reviewed account and authentication information.
+- Reset authentication factors when appropriate.
+- Remained alert to phishing and social-engineering risks.
+- Restored access while maintaining security controls.
+- Documented actions and communicated clearly with users.
 
-Examples of the working approach included:
-
-- Validating user identity before changing account settings.
-- Investigating MFA and sign-in problems.
-- Reviewing relevant account and authentication information.
-- Resetting authentication factors when appropriate.
-- Remaining alert to phishing and social-engineering risks.
-- Restoring access while maintaining security controls.
-- Documenting actions and communicating clearly with the user.
-
-When a laptop or other device was lost, relevant actions included:
+When devices were lost, relevant actions included:
 
 - Securing the user account.
 - Changing or resetting credentials.
-- Locking or placing the device in Lost Mode.
+- Locking or placing devices in Lost Mode.
 - Using Intune or Entra ID-related controls.
-- Recording the device serial number.
-- Supporting documentation for a police report when required.
-- Arranging a replacement device so the user could return to work quickly.
+- Recording device serial numbers.
+- Supporting police-report documentation when required.
+- Arranging replacement devices so users could return to work quickly.
 
 ### Business-oriented incident prioritisation
 
-Support work was prioritised according to business impact rather than simply
-handling cases in the order they arrived.
+Support work was prioritised according to business impact and operational risk.
 
 Examples included:
 
@@ -221,9 +375,6 @@ Examples included:
 - Security-related incidents.
 - Lower-impact mobile or convenience issues when more critical work was
   active.
-
-This approach helped protect essential business operations while maintaining
-realistic expectations with users and stakeholders.
 
 ### Technical environment
 
@@ -253,10 +404,8 @@ realistic expectations with users and stakeholders.
 **Employer / consultant company:** IT-Bemanning / Coromatic  
 **Period:** December 2019 – May 2020
 
-### Project
-
-Completed a project for Swedbank involving the replacement of access points at
-the main office environment in Sundbyberg and Solna.
+Completed a project involving the replacement of wireless access points at the
+main office environment.
 
 ### Responsibilities
 
@@ -287,7 +436,6 @@ the main office environment in Sundbyberg and Solna.
 
 ### Responsibilities
 
-- Worked as a temporary consultant for Coromatic on assignment at H&M.
 - Installed server equipment.
 - Managed change requests.
 - Performed preparatory infrastructure work.
@@ -317,14 +465,12 @@ the main office environment in Sundbyberg and Solna.
 
 ### Responsibilities
 
-- Took independent responsibility for first-line IT support in a large
-  corporate environment.
+- Took independent responsibility for first-line IT support.
 - Completed a large-scale migration from Windows 7 to Windows 10.
-- Installed and configured laptops, desktop computers and tablets.
+- Installed and configured laptops, desktops and tablets.
 - Worked with PXE-based network installations.
 - Used image-based deployment solutions.
 - Worked closely with end users.
-- Focused on maintaining a high level of customer satisfaction.
 - Secured backups of user data.
 - Supported effective account restoration.
 - Contributed to standardised workflows.
@@ -359,17 +505,13 @@ the main office environment in Sundbyberg and Solna.
 ### Responsibilities
 
 - Installed and supported server and network equipment.
-- Performed hardware support involving:
-  - hard drives
-  - RAM
-  - fans
-  - cabling
-  - SFP modules
+- Performed hardware support involving hard drives, RAM, fans, cabling and
+  SFP modules.
 - Read and updated cable and rack documentation according to Ericsson
   standards.
 - Installed equipment according to design and rack drawings.
 - Documented completed work.
-- Produced additional technical documentation.
+- Produced technical documentation.
 - Managed cases through RTT and Jira.
 - Worked with requirements for traceability and quality.
 - Collaborated with global teams in production-related environments.
@@ -389,7 +531,7 @@ the main office environment in Sundbyberg and Solna.
 - Fibre
 - Copper
 - Server environments
-- Data-centre infrastructure
+- Data-cententre infrastructure
 - Rack and cable documentation
 - SFP modules
 - Hardware support
@@ -409,7 +551,6 @@ the main office environment in Sundbyberg and Solna.
 - Performed MIG welding.
 - Cut, straightened, ground, sawed and drilled materials.
 - Used a magnetic drilling machine.
-- Worked with practical fabrication and workshop processes.
 - Followed work instructions and technical drawings.
 
 ### Technical focus
@@ -435,21 +576,14 @@ the main office environment in Sundbyberg and Solna.
 ### Responsibilities
 
 - Performed car repairs and servicing.
-- Worked with both light maintenance and larger repairs.
-- Serviced and repaired trucks, including:
-  - Volvo FL6
-  - Volvo FL12
-  - Scania
-  - Volvo
-  - MAN
-- Worked with passenger cars.
-- Worked with American V8 vehicles.
+- Worked with light maintenance and larger repairs.
+- Serviced and repaired trucks, including Volvo, Scania and MAN vehicles.
+- Worked with passenger cars and American V8 vehicles.
 - Performed vehicle recovery and roadside assistance.
 - Diagnosed mechanical problems.
 - Worked independently with practical troubleshooting.
 - Followed problems from diagnosis through to completed repair.
-- Planned and performed repairs according to the problem and available
-  resources.
+- Planned and performed repairs according to available resources.
 - Worked with preventive maintenance and service.
 
 ### Technical focus
@@ -480,8 +614,7 @@ the main office environment in Sundbyberg and Solna.
 - Considered basic GDPR requirements.
 - Specified equipment for full Wi-Fi coverage.
 - Planned encrypted client environments using TPM 2.0 and BitLocker.
-- Designed a secure network environment.
-- Planned and installed network infrastructure.
+- Designed and installed network infrastructure.
 - Planned firewall, backup and cloud-based camera surveillance.
 - Performed an inventory of the IT environment.
 - Conducted needs analysis.
@@ -520,11 +653,8 @@ the main office environment in Sundbyberg and Solna.
 
 ### Technical subjects and environment
 
-- Windows Server 2003
-- Windows Server 2008
-- Windows Server 2012
-- Windows XP
-- Windows 7
+- Windows Server 2003, 2008 and 2012
+- Windows XP and Windows 7
 - Active Directory
 - Hyper-V 3
 - Distributed File System
@@ -590,7 +720,7 @@ I value:
 - Solutions that work in everyday operations.
 - Knowledge sharing and continuous improvement.
 
-I am comfortable working independently, while also acting as a link between
+I am comfortable working independently while also acting as a link between
 users, management, technical teams and suppliers.
 
 ---
@@ -605,22 +735,19 @@ my experience:
 - Ticket handling and user communication.
 - Client management and deployment.
 - Microsoft 365 and Entra ID administration.
-- On-site and datacenter hardware and infrastructure.
+- On-site and data-centre hardware and infrastructure.
 - PowerShell and automation.
 
 The assessment particularly highlighted:
 
 - Structured troubleshooting in Microsoft 365 and Entra ID.
 - Clear identity validation and awareness of phishing risks.
-- Fast and correct incident response when a device is lost.
+- Incident response when a device is lost.
 - Account and device protection through Intune and Entra ID.
 - Large-scale client migration involving pilot groups and policy-based
   deployment.
 - Business-oriented prioritisation of support cases.
 - Communication between users, management and suppliers.
-
-The assessment also identified PowerShell and automation as areas for continued
-development.
 
 This assessment is included as an external profile description, not as a formal
 certification or independent technical examination.
@@ -676,6 +803,18 @@ Copper
 SFP modules
 Server equipment
 Data-centre infrastructure
+Trust architecture
+Security architecture
+AI continuity
+Portable Workstate
+Memory Bank
+Prompt engineering
+Technical documentation
+Knowledge architecture
+AI evaluation
+Independent research
+Methodology development
+Conceptual design
 ```
 
 ---
@@ -711,9 +850,7 @@ Data-centre infrastructure
 - Exchange.
 - SharePoint.
 - Microsoft Teams.
-- Windows 7.
-- Windows 10.
-- Windows 11.
+- Windows 7, Windows 10 and Windows 11.
 - Windows Server.
 - Endpoint deployment.
 - Image-based deployment.
@@ -736,7 +873,7 @@ Data-centre infrastructure
 - Server equipment.
 - Rack installation.
 - Data-centre environments.
-- Firewall.
+- Firewalls.
 - Secure remote support.
 - Access point replacement.
 - Technical drawings.
@@ -750,15 +887,35 @@ Data-centre infrastructure
 - Identity management.
 - MFA.
 - Phishing awareness.
-- Lost device response.
+- Lost-device response.
 - TPM 2.0.
 - BitLocker.
 - Backup planning.
 - Recovery planning.
 - Secure environments.
+- Trust architecture.
+- Security architecture.
+- Governance and authority boundaries.
 - Traceability.
 - Technical documentation.
 - Operational risk awareness.
+
+## AI systems and research
+
+- AI continuity architecture.
+- Context and identity preservation.
+- Portable Workstate design.
+- Memory Bank concepts.
+- Prompt engineering.
+- AI model evaluation.
+- Continuity testing across AI models.
+- Technical and conceptual documentation.
+- Independent research.
+- Methodology development.
+- Knowledge architecture.
+- Human-AI collaboration.
+- Public technical communication.
+- Versioned and reviewable development.
 
 ## Practical and mechanical skills
 
@@ -778,6 +935,8 @@ Data-centre infrastructure
 - Workshop work.
 - Preventive maintenance.
 - Practical diagnostics.
+- Hot-work safety.
+- Lift operation.
 
 ---
 
@@ -837,6 +996,10 @@ solving, user communication and continuous development are valued.
 My current direction is toward a strong first-line or service-desk role with
 the possibility of growing into broader responsibility over time.
 
+I am also developing toward independent work involving AI systems, trust
+architecture, technical documentation, prompt engineering, continuity methods
+and conceptual system design.
+
 Areas of interest include:
 
 - Team lead responsibilities.
@@ -848,13 +1011,16 @@ Areas of interest include:
 - SLA, WIP and lead-time measurement.
 - Knowledge management.
 - Technical documentation.
-- Clearer distribution rules.
 - Support workflow development.
 - Technical coordination.
 - Training and knowledge sharing.
+- AI systems and prompt engineering.
+- AI continuity and context architecture.
+- Trust and security architecture.
+- Independent research and methodology development.
 
-My goal is to first contribute effectively in the role itself and then take on
-more responsibility as experience, trust and organisational needs develop.
+My goal is to contribute effectively in the role itself and take on more
+responsibility as experience, trust and organisational needs develop.
 
 My strongest contribution is at the intersection of:
 
@@ -882,14 +1048,32 @@ Selected areas include:
 - AI continuity and context preservation.
 - Human-AI collaboration methods.
 - Security architecture and trust models.
+- High-security facility concept design.
 - Operational resilience and recovery.
 - Public documentation and research in progress.
 - Reproducible working methods.
 - Technical and conceptual system design.
+- Knowledge architecture.
+- AI evaluation and continuity testing.
 - Documentation of experiments and development history.
 
+The public development phase began with the first recorded GitHub commit on
+**21 April 2026**.
+
 The public repositories provide examples of how I approach ideas, systems,
-documentation, architecture and continuous improvement.
+documentation, architecture, experimentation and continuous improvement.
+
+## Selected projects
+
+- [High-Security Facility Concept](https://github.com/psycedelicAI/high-security-facility-concept)
+- [AI Continuity Architecture Method](https://github.com/psycedelicAI/AI-Continuity-Architecture-Method)
+- [Symbiosis](https://github.com/psycedelicAI/Symbiosis)
+- [Random-Stuffs](https://github.com/psycedelicAI/Random-Stuffs)
+- [PsycedelicAI Wiki](https://github.com/psycedelicAI/wiki)
+
+The public work includes active projects, experiments, methodologies,
+documentation, archived material and research in progress. It represents an
+evolving body of work rather than one finished product.
 
 ---
 
@@ -900,6 +1084,7 @@ documentation, architecture and continuous improvement.
 - [PsycedelicAI organisation repository](https://github.com/psycedelicAI/psycedelicAI)
 - [PsycedelicAI Wiki](https://github.com/psycedelicAI/wiki)
 - [AI Continuity Architecture Method](https://github.com/psycedelicAI/AI-Continuity-Architecture-Method)
+- [High-Security Facility Concept](https://github.com/psycedelicAI/high-security-facility-concept)
 - [Symbiosis](https://github.com/psycedelicAI/Symbiosis)
 - [Random-Stuffs](https://github.com/psycedelicAI/Random-Stuffs)
 
@@ -913,6 +1098,7 @@ This public CV is based on:
 - Professional experience and employment history.
 - External Wundermatch profile assessment.
 - Publicly documented technical work.
+- Public GitHub repositories and version history.
 - Selected projects and documentation published through PsycedelicAI.
 
 The original CV remains the primary reference for the complete employment
@@ -935,10 +1121,11 @@ It intentionally excludes:
 - Internal company information.
 - Sensitive infrastructure details.
 - Private project details.
+- Private raw AI development data.
 
 The purpose of this document is to show the experience, places, time periods,
-responsibilities and tools that form the professional background behind
-PsycedelicAI.
+responsibilities, tools and public technical work that form the professional
+background behind PsycedelicAI.
 
 ---
 
@@ -948,5 +1135,7 @@ This CV is an evolving public document.
 
 It may be updated as new professional experience, public projects and relevant
 technical work are added.
+
+**Last major update:** September 2026
 
 ---
