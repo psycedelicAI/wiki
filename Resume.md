@@ -531,7 +531,7 @@ main office environment.
 - Fibre
 - Copper
 - Server environments
-- Data-cententre infrastructure
+- Data-centre infrastructure
 - Rack and cable documentation
 - SFP modules
 - Hardware support
