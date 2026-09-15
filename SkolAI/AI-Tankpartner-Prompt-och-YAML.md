@@ -1,9 +1,9 @@
-# AI-tankpartner i skolan: prompt, YAML och arbetsflöde
+# AI-tankpartner i skolan: prompt och YAML
 
 ## Status
 
 - Status: Konceptuell systemdesign
-- Version: 0.1
+- Version: 0.2
 - Område: Skolkuraterad AI, teknikundervisning och idéutveckling
 - Relaterat koncept: AI-continuity
 - Senast uppdaterad: 2026-09-15
@@ -14,7 +14,7 @@
 
 - [AI som tankpartner i skolan](AI-Som-Tankpartner-I-Skolan.md)
 - [AI-tankpartner: lektionsflöde](AI-Tankpartner-Lektionsflode.md)
-- [AI-tankpartner: prompt, YAML och arbetsflöde](AI-Tankpartner-Prompt-och-YAML.md)
+- [AI-tankpartner: prompt och YAML](AI-Tankpartner-Prompt-och-YAML.md)
 
 Det första dokumentet beskriver idén och den pedagogiska visionen.
 
