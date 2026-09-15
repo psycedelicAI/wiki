@@ -198,9 +198,9 @@ Välj val:
 Varje val ska hanteras som en separat röstkomponent:
 
 ```text
-Kommunröst  → separat krypterad röst
-Regionröst  → separat krypterad röst
-Riksdagsröst → separat krypterad röst
+Kommunröst    → separat krypterad röst
+Regionröst    → separat krypterad röst
+Riksdagsröst  → separat krypterad röst
 ```
 
 Väljaren ska kunna granska sina val före slutlig inlämning.
@@ -424,7 +424,305 @@ QR-koden löser inte ensam:
 
 ---
 
-# 13. Föreslagen prototyp
+# 13. Tekniska referenser för dynamisk QR-autentisering
+
+Den föreslagna lösningen bygger inte på att QR-koder i sig är säkra. QR-koden
+är endast ett sätt att överföra en tillfällig autentisering mellan en mobil
+enhet och en vallokalsplatta.
+
+Relevanta tekniska referenser visar att följande komponenter redan används eller
+har testats i andra sammanhang:
+
+- mobilbaserad QR-autentisering;
+- fysisk skanning;
+- backend-validering;
+- tidsbegränsade tokens;
+- roterande QR-värden;
+- skydd mot återanvändning och skärmdumpar.
+
+Dessa referenser bevisar inte att ett komplett digitalt valsystem är säkert.
+De stöder endast vissa delar av den föreslagna tekniska modellen.
+
+---
+
+## 13.1 KTH: Network Authentication to the Physical World
+
+En relevant akademisk referens är:
+
+> Joakim Sandberg, *Network Authentication to the Physical World*,
+> KTH Royal Institute of Technology, 2018.
+
+Studien undersöker QR-koder som visas på en mobil enhet och används som
+autentiseringsmedel för fysisk åtkomstkontroll.
+
+Den testade modellen kan beskrivas så här:
+
+```text
+Android-applikation
+        ↓
+QR-kod på mobil enhet
+        ↓
+Kamera eller QR-läsare
+        ↓
+Backend för validering
+        ↓
+Beslut om fysisk åtkomst
+```
+
+Studien är relevant eftersom den visar en praktiskt testad koppling mellan:
+
+- mobil enhet;
+- QR-kod;
+- fysisk läsare;
+- backend;
+- autentiseringsbeslut.
+
+Arbetet behandlar även:
+
+- var avkodning och verifiering bör ske;
+- vilken information som bör placeras i QR-koden;
+- registrering och avregistrering;
+- flerfaktorsautentisering;
+- angreppsresistens;
+- jämförelser med RFID och magnetremsa.
+
+### Begränsning
+
+Studien gäller fysisk åtkomstkontroll, inte val.
+
+Ett manipulerat passersystem kan exempelvis leda till obehörigt tillträde till en
+byggnad. Ett manipulerat valsystem kan däremot leda till:
+
+- identitetsmissbruk;
+- dubbelröstning;
+- nekad rösträtt;
+- koppling mellan väljare och röst;
+- förlorad valhemlighet;
+- tvång eller röstköp;
+- felaktigt valresultat.
+
+Studien ska därför endast användas som stöd för att QR-baserad fysisk
+autentisering är tekniskt genomförbar. Den ska inte användas som bevis för att
+det föreslagna valsystemet är säkert.
+
+Källa:
+
+- [Network Authentication to the Physical World, KTH](https://kth.diva-portal.org/smash/get/diva2:1174222/FULLTEXT01.pdf)
+
+---
+
+## 13.2 SL:s dynamiska mobilbiljetter
+
+SL:s mobilbiljetter är ett relevant praktiskt exempel på hur en mobil
+applikation kan visa ett dynamiskt QR-värde som kontrolleras av en fysisk
+skanner.
+
+Den övergripande modellen kan beskrivas så här:
+
+```text
+Biljett aktiveras i mobilapplikationen
+        ↓
+Ett dynamiskt QR-värde visas
+        ↓
+QR-koden läses av en skanner
+        ↓
+Aktuell giltighet kontrolleras
+        ↓
+Äldre eller återanvända värden kan avvisas
+```
+
+Detta är relevant eftersom en statisk skärmdump inte bör kunna fungera som en
+permanent behörighet.
+
+En tidsbegränsad token kan minska risken för:
+
+- återanvändning;
+- delning av skärmdumpar;
+- kopiering av en aktiv session;
+- återinlämning av samma token;
+- obehörig användning efter att giltighetstiden löpt ut.
+
+### Källbegränsning
+
+Scandits publika fallstudie om Stockholm Public Transport beskriver främst
+förbättrad skanning och biljettkontroll med mobila enheter. Den dokumenterar
+inte hela den interna implementationen av SL:s roterande QR-system.
+
+Därför ska SL-exemplet beskrivas som:
+
+- ett praktiskt exempel på dynamisk biljettvalidering;
+- en illustration av anti-screenshot och anti-replay;
+- stöd för att mobilbaserad QR-validering fungerar i verklig trafikmiljö.
+
+Det ska inte beskrivas som en officiell teknisk specifikation av SL:s interna
+system.
+
+Källor:
+
+- [Scandit: Stockholm Public Transport Case Study](https://www.scandit.com/resources/case-studies/stockholm-public-transport/)
+- [SL fares and tickets](https://sl.se/en/fares-and-tickets)
+- [SL smartphone ticket app](https://sl.se/en/fares-and-tickets/smart-phone-ticket-app)
+
+---
+
+## 13.3 Roterande QR-värden och tidsbaserade engångstokens
+
+Roterande QR-koder kan byggas med samma grundprincip som tidsbaserade
+engångslösenord.
+
+En förenklad modell är:
+
+```text
+Hemlig token eller sessionsnyckel
+        +
+Aktuellt tidsintervall
+        ↓
+Aktuellt engångsvärde
+        ↓
+QR-kod
+```
+
+När tidsintervallet ändras genereras ett nytt värde. En skärmdump från ett
+tidigare tidsintervall kan då avvisas.
+
+Ett möjligt koncept för valsystemet är:
+
+```text
+Röstbehörighet skapad
+        ↓
+QR-token aktiverad
+        ↓
+Kort giltighetstid
+        ↓
+Token används på vallokalsplattan
+        ↓
+Token markeras som använd
+        ↓
+Token kan inte återanvändas
+```
+
+Token bör kunna valideras mot:
+
+- giltighetstid;
+- sessionsstatus;
+- valt röstningsflöde;
+- om token redan har använts;
+- kryptografisk signatur;
+- eventuell spärrstatus.
+
+Google Wallet dokumenterar roterande streckkoder som en metod för att minska
+riskerna med skärmdumpar, kopiering och obehörig återanvändning av biljetter.
+
+Detta är relevant för konceptet eftersom en QR-token kan fungera som ett
+tidsbegränsat autentiseringsvärde i stället för en permanent kod.
+
+Källa:
+
+- [Google Wallet Rotating Barcodes](https://developers.google.com/wallet/tickets/rotating-barcodes)
+
+---
+
+## 13.4 Vad referenserna faktiskt stöder
+
+| Referens | Stöder | Bevisar inte |
+|---|---|---|
+| KTH-studien | QR-baserad fysisk autentisering och backend-validering | Säkerheten i ett valsystem |
+| SL | Praktisk användning av dynamiska biljettvärden | SL:s exakta interna implementation |
+| Scandit | Effektiv fysisk skanning och biljettkontroll | Rotationsalgoritmen bakom SL:s QR-koder |
+| Google Wallet | Roterande streckkoder och tidsbaserade värden | Valhemlighet eller skydd mot tvång |
+| Detta koncept | En möjlig kombination av BankID, token och anonym röstning | Att systemet redan är validerat |
+
+---
+
+## 13.5 Tillämpning i det föreslagna valsystemet
+
+Referenserna pekar mot följande möjliga flöde:
+
+```text
+BankID-autentisering
+        ↓
+Kontroll av rösträtt
+        ↓
+Identiteten separeras från röstningssessionen
+        ↓
+En kortlivad anonym rösttoken skapas
+        ↓
+En dynamisk QR-kod visas i mobilen
+        ↓
+Vallokalsplattan läser aktuell QR-kod
+        ↓
+Token valideras
+        ↓
+Token används och spärras
+        ↓
+Väljaren avger sin röst utan identitetskoppling
+```
+
+QR-koden får inte innehålla:
+
+- personnummer;
+- väljarens namn;
+- valt parti;
+- röstens innehåll;
+- en permanent identifierare;
+- information som gör det möjligt att återskapa identiteten.
+
+QR-koden ska endast fungera som:
+
+```text
+Tillfällig rätt att starta en anonym röstningssession
+```
+
+Inte som:
+
+```text
+Bevis på hur väljaren har röstat
+```
+
+---
+
+## 13.6 Kvarstående säkerhetsfrågor
+
+Även en roterande QR-token måste granskas mot följande hot:
+
+- kopiering innan token hinner rotera;
+- manipulation av mobiltelefonen;
+- manipulation av vallokalsplattan;
+- falsk vallokalsplatta;
+- kapning av sessionen;
+- förlängning av giltighetstiden;
+- återanvändning av en redan använd token;
+- angrepp mot backend;
+- koppling mellan token och röst;
+- loggar som indirekt avslöjar väljarens identitet;
+- nekad åtkomst på grund av synkroniseringsfel;
+- bristande reservrutiner.
+
+Dynamisk QR-teknik löser endast en begränsad del av systemets säkerhetsproblem.
+
+Den kan bidra till:
+
+- sessionskontroll;
+- engångsanvändning;
+- anti-replay;
+- begränsad giltighetstid;
+- minskad risk för statiska skärmdumpar.
+
+Den löser inte ensam:
+
+- valhemlighet;
+- anonymisering;
+- tvång;
+- röstköp;
+- korrekt rösträkning;
+- oberoende revision;
+- säker programvara;
+- tillgänglighet;
+- juridiska krav.
+
+---
+
+# 14. Föreslagen prototyp
 
 Den första prototypen bör inte användas för riktiga nationella val.
 
@@ -449,7 +747,9 @@ Testa särskilt:
 - manipulation av platta;
 - felaktiga behörigheter;
 - försök att koppla identitet till röst;
-- felaktig rösträkning.
+- felaktig rösträkning;
+- användning av en gammal skärmdump;
+- försök att använda samma token på flera plattor.
 
 ## Testnivå 2: Förenings- eller elevrådsval
 
@@ -471,7 +771,7 @@ Innan någon politisk pilot krävs:
 
 ---
 
-# 14. Centrala forskningsfrågor
+# 15. Centrala forskningsfrågor
 
 1. Kan BankID användas för rösträttskontroll utan att skapa spår till röstens
    innehåll?
@@ -499,9 +799,20 @@ Innan någon politisk pilot krävs:
 10. Är digital röstning faktiskt säkrare och mer tillförlitlig än fysisk
     röstning?
 
+11. Hur ofta ska en QR-token rotera?
+
+12. Hur länge får ett tidigare QR-värde accepteras vid tillfälliga
+    nätverks- eller tidsskillnader?
+
+13. Hur förhindras att en roterande token kopplas till den slutliga rösten?
+
+14. Hur hanteras en komprometterad mobiltelefon?
+
+15. Hur upptäcks och spärras en token som kopieras innan den används?
+
 ---
 
-# 15. Preliminär systemmodell
+# 16. Preliminär systemmodell
 
 ```text
 Väljare
@@ -512,7 +823,7 @@ Rösträttskontroll
    ↓
 Separering av identitet och röstbehörighet
    ↓
-Slumpmässig engångstoken
+Kortlivad dynamisk engångstoken
    ↓
 Vallokalsplatta
    ↓
@@ -527,7 +838,7 @@ Oberoende verifiering och sammanräkning
 
 ---
 
-# 16. Förhållande till PsycedelicAI
+# 17. Förhållande till PsycedelicAI
 
 Konceptet kan utvecklas med samma tänkande som används i andra
 PsycedelicAI-projekt:
@@ -546,7 +857,7 @@ De bidrar med olika arkitektoniska perspektiv till ett nytt koncept.
 
 ---
 
-# 17. Sammanfattning
+# 18. Sammanfattning
 
 Den föreslagna lösningen är:
 
@@ -557,7 +868,7 @@ BankID
 Anonymisering
     = bryter kopplingen mellan väljare och röst
 
-Randomiserad QR-token
+Dynamisk QR-token
     = startar en tidsbegränsad engångssession
 
 Vallokalsplatta
@@ -576,3 +887,14 @@ Den största designregeln är:
 > bevisa hur en viss person röstat.**
 
 Det är den princip som hela den fortsatta utvecklingen måste kretsa kring.
+
+---
+
+# 19. Källor
+
+- [Network Authentication to the Physical World, KTH](https://kth.diva-portal.org/smash/get/diva2:1174222/FULLTEXT01.pdf)
+- [SL fares and tickets](https://sl.se/en/fares-and-tickets)
+- [SL smartphone ticket app](https://sl.se/en/fares-and-tickets/smart-phone-ticket-app)
+- [Scandit: Stockholm Public Transport Case Study](https://www.scandit.com/resources/case-studies/stockholm-public-transport/)
+- [Google Wallet Rotating Barcodes](https://developers.google.com/wallet/tickets/rotating-barcodes)
+- [Valmyndigheten](https://www.val.se/)
