@@ -3,8 +3,8 @@
 ## Status
 
 - Status: Koncept
-- Version: 0.1
-- Område: AI, skola, teknikundervisning och kreativ problemlösning
+- Version: 0.2
+- Område: Skolkuraterad AI, teknikundervisning och kreativ problemlösning
 - Relaterat koncept: AI-continuity
 - Ägare: PsycedelicAI
 - Senast uppdaterad: 2026-09-15
@@ -19,7 +19,7 @@ skolkuraterad AI-plattform som används under tydligt avgränsade lektioner.
 Plattformen ska inte fungera som ett facit, göra elevernas skoluppgifter eller
 skriva färdiga svar åt dem.
 
-Den ska fungera som en kreativ och analytisk tankpartner som hjälper barn att:
+Den ska fungera som en kreativ och analytisk tankpartner som hjälper elever att:
 
 - formulera problem;
 - utveckla idéer;
@@ -28,12 +28,71 @@ Den ska fungera som en kreativ och analytisk tankpartner som hjälper barn att:
 - jämföra olika lösningar;
 - ställa bättre frågor;
 - upptäcka begränsningar;
-- testa och förbättra sina egna idéer.
+- testa och förbättra sina egna idéer;
+- reflektera över sina egna beslut.
 
 Den centrala principen är:
 
-> AI ska inte tänka åt barnen.
-> AI ska hjälpa barnen att tänka vidare.
+> AI ska inte tänka åt eleverna.
+> AI ska hjälpa eleverna att tänka vidare.
+
+---
+
+## Dokumentets roll
+
+Detta är huvuddokumentet för SkolAI-konceptet.
+
+Det beskriver:
+
+- den pedagogiska visionen;
+- relationen mellan elev, AI och lärare;
+- AI-continuity i skolmiljö;
+- elevens ägarskap;
+- lärarens ansvar;
+- plattformens grundprinciper;
+- skillnaden mellan tankpartner och facit.
+
+De tekniska reglerna, lektionsflödet, säkerhetsmodellen och lärarstödet finns i
+separata dokument.
+
+---
+
+## Relaterade dokument
+
+- [Prompt, YAML och arbetsflöde](AI-Tankpartner-Prompt-och-YAML.md)
+- [Lektionsflöde](AI-Tankpartner-Lektionsflode.md)
+- [Säkerhet och ansvar](AI-Tankpartner-Sakerhet.md)
+- [Lärarhandledning](AI-Tankpartner-Lararhandledning.md)
+
+Detta dokument beskriver vad SkolAI är och varför konceptet behövs.
+
+Prompt- och YAML-dokumentet beskriver hur AI:n ska konfigureras.
+
+Lektionsflödet beskriver hur systemet används under en lektion.
+
+Säkerhetsdokumentet beskriver fysisk säkerhet, integritet och ansvar.
+
+Lärarhandledningen beskriver hur läraren kan använda modellen i praktiken.
+
+---
+
+## Övergripande modell
+
+```text
+AI som pedagogisk tankpartner
+        ↓
+Lektionsanpassad användning
+        ↓
+Elevens egna idéer och beslut
+        ↓
+Praktiskt skapande och testning
+        ↓
+Reflektion och förbättring
+        ↓
+Projektbaserad kontinuitet
+        ↓
+Lärarens granskning och ansvar
+```
 
 ---
 
@@ -89,9 +148,37 @@ AI:n kan fungera som:
 - frågeställare;
 - perspektivgivare;
 - strukturerare;
-- dokumentationshjälp.
+- dokumentationshjälp;
+- stöd för reflektion.
 
 AI:n ska inte vara den som bestämmer vilken idé som är bäst.
+
+---
+
+## Skillnaden mellan tankpartner och facit
+
+### AI som facit
+
+> Här är svaret på uppgiften.
+
+Detta riskerar att ta bort:
+
+- elevens tänkande;
+- elevens problemlösning;
+- elevens praktiska arbete;
+- elevens möjlighet att göra misstag;
+- elevens förståelse för hur lösningen kom fram.
+
+### AI som tankpartner
+
+> Vad försöker ni skapa?  
+> Vilket problem vill ni lösa?  
+> Vilka möjligheter ser ni?  
+> Vad kan vara svårt?  
+> Hur kan ni testa idén?  
+> Vad vill ni själva välja?
+
+Här fungerar AI:n som stöd för elevens eget tänkande.
 
 ---
 
@@ -111,7 +198,8 @@ AI:n ska kunna:
 - hjälpa gruppen att dokumentera sin arbetsprocess;
 - sammanfatta gruppens egna beslut;
 - hjälpa elever att se samband mellan olika idéer;
-- utmana elevernas första tanke på ett konstruktivt sätt.
+- utmana elevernas första tanke på ett konstruktivt sätt;
+- hjälpa eleverna att reflektera efter testning.
 
 ---
 
@@ -172,7 +260,17 @@ Eleven bidrar med:
 - idéer;
 - beslut;
 - praktiskt arbete;
-- utvärdering.
+- utvärdering;
+- personlig mening.
+
+Eleven äger:
+
+- sin idé;
+- sin riktning;
+- sina beslut;
+- sitt praktiska arbete;
+- sin presentation;
+- sin reflektion.
 
 ### AI:n
 
@@ -184,7 +282,15 @@ AI:n bidrar med:
 - alternativa möjligheter;
 - jämförelser;
 - planeringsstöd;
-- hjälp att se samband.
+- hjälp att se samband;
+- stöd för dokumentation;
+- stöd för reflektion.
+
+AI:n föreslår, men bestämmer inte.
+
+AI:n förklarar, men bedömer inte elevens person.
+
+AI:n stödjer, men ersätter inte elevens tänkande.
 
 ### Läraren
 
@@ -197,7 +303,9 @@ Läraren ansvarar för:
 - gruppindelning;
 - regler för AI-användning;
 - bedömning;
-- mänsklig återkoppling.
+- mänsklig återkoppling;
+- granskning av projektets workstate;
+- vad som får sparas.
 
 AI:n ska stärka relationen mellan elev och lärare, inte ersätta den.
 
@@ -218,7 +326,8 @@ lektion, exempelvis:
 - begränsningar;
 - gruppens beslut;
 - frågor som återstår;
-- nästa planerade steg.
+- nästa planerade steg;
+- vad gruppen vill undersöka vidare.
 
 AI-continuity ska i första hand vara en kontinuitet för:
 
@@ -229,6 +338,27 @@ AI-continuity ska i första hand vara en kontinuitet för:
 - lärarens pedagogiska ram.
 
 Det ska inte vara en obegränsad personlig övervakningsprofil.
+
+---
+
+## Projektets workstate
+
+Ett projekt-workstate beskriver var gruppens arbete befinner sig just nu.
+
+Det kan innehålla:
+
+- problem;
+- mål;
+- idéer;
+- valda riktningar;
+- egna beslut;
+- testresultat;
+- öppna frågor;
+- nästa steg.
+
+Workstate ska beskriva projektets utveckling.
+
+Det ska inte skapa en permanent bedömning av eleverna.
 
 ---
 
@@ -650,9 +780,20 @@ Den gör tänkandet synligare, rikare och mer utforskande.
 
 ---
 
-## Teknisk fortsättning
+## Dokumentstruktur
 
-För promptstruktur, YAML-konfiguration och det detaljerade lektionsflödet,
-se:
+SkolAI-konceptet består av följande dokument:
 
-- [AI-tankpartner i skolan: prompt, YAML och arbetsflöde](AI-Tankpartner-Prompt-och-YAML.md)
+```text
+SkolAI/
+├── AI-Som-Tankpartner-I-Skolan.md
+├── AI-Tankpartner-Prompt-och-YAML.md
+├── AI-Tankpartner-Lektionsflode.md
+├── AI-Tankpartner-Sakerhet.md
+└── AI-Tankpartner-Lararhandledning.md
+```
+
+Detta dokument är huvuddokumentet.
+
+De övriga dokumenten beskriver hur konceptet konfigureras, används, säkras och
+stöds i praktiken.
